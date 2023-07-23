@@ -20,7 +20,7 @@ export const FeedbackOptions = ({ onClick, options }) => {
   );
 };
 
-// FeedbackOptions.propTypes = {
-//   onClick: PropTypes.func.isRequired,
-//   options: PropTypes.arrayOf(PropTypes.string).isRequired,
-// };
+FeedbackOptions.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
